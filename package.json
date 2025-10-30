@@ -1,0 +1,14 @@
+{
+  "name": "cleanconvertpdf-backend",
+  "version": "1.0.0",
+  "description": "Backend per convertire HTML o URL in PDF",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8",
+    "body-parser": "^1.20.2"
+  }
+}
